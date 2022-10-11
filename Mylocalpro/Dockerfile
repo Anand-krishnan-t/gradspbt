@@ -13,7 +13,7 @@ FROM java:8
 #USER spring:spring
 
 # main REST service and OpenAPI /swagger-ui/index.html
-EXPOSE 8088
+EXPOSE 8080
 ## actuator metrics /actuator/health, /actuator/prometheus
 #EXPOSE 8081
 
